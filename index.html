@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Portfolio of me</title>
+    <link rel="stylesheet" href="./style.css"/>
+    <script src="./script.js"></script>
+  </head>
+  <body>
+
+    <!-- Navigation Bar -->
+    <nav>
+      <div id="home">
+        <div class="profile_name">
+          Azaam Mohammed Hassen
+          <div class="contact_info">
+            <img src="html_finalprojimages/envelope.png" alt="https://icons8.com/icon/124377/circled-envelope"/>
+            azaamhassen86msn@gmail.com
+          </div>
+          <div style="clear:both;"></div>
+          <div class="contact_info">
+            <img src="html_finalprojimages/phone.png" alt="https://icons8.com/icon/124377/circled-envelope"/>
+            +94782344398
+          </div>
+        </div>
+        <div class="topdiv">
+          <a class="topmenu" href="#about-me">About Me</a>
+          <a class="topmenu" href="#skills">Skills</a>
+          <a class="topmenu" href="#projects">Projects</a>
+          <a class="topmenu" href="#recommendations">Recommendations</a>
+        </div>
+      </div>    
+    </nav>
+
+    <!-- About Me -->
+    <section id="about-me" class="container">
+      <div>
+        <img src="html_finalprojimages/dp.jpg" class="profile_image"/>
+      </div>
+
+      <div>
+          <h1>
+            Hi, I'm Azaam Mohammed Hassen! <img src="data:image/png;base64,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" width="60px"/>
+          </h1>
+          <p>
+            I'm a Computer Science student deeply passionate about full-stack development. Eager to learn and apply my skills in crafting immersive web experiences. Excited about the dynamic world of technology and its potential to create positive change. Let's build something amazing together!
+          </p>
+      </div>
+    </section>
+              
+    <!-- Skills -->
+    <section id="skills">
+      <h2>Skills</h2>
+      <div style="clear:both;"></div>
+
+      <div class="all_skills">
+        <div class="skill">
+          <img src="html_finalprojimages/html5.png"/>
+          <h6>HTML</h6>
+          <p>Beginner</p>
+        </div> 
+
+        <div class="skill">
+          <img src="https://w7.pngwing.com/pngs/393/49/png-transparent-css-logo-thumbnail.png"/>
+          <h6>CSS</h6>
+          <p>Beginner</p>
+        </div>
+
+        <div class="skill">
+          <img src="html_finalprojimages/js.jpeg"/>
+          <h6>JavaScript</h6>
+          <p>Beginner</p>
+        </div>  
+
+        <div class="skill">
+          <img src="https://w7.pngwing.com/pngs/1000/942/png-transparent-icloud-storage-logo-cloud-computing-cloud-storage-internet-data-center-cloud-computing-blue-computer-network-service-thumbnail.png"/>
+          <h6>Cloud Computing</h6>
+          <p>Beginner</p>
+        </div>
+
+      </div>
+    </section>
+          
+    <!-- Projects -->
+    <section class="projects" id="projects">
+      <h2>
+        Projects
+      </h2>
+      <div style="clear:both;"></div>
+
+        <div id="projects-container" class="projects-container">
+          <div class="project-card">
+            <h3>Portfolio</h3>
+            <ul>
+              <li>I've crafted a personal portfolio website, elegantly designed and functional, employing HTML, CSS, and JavaScript for a seamless and interactive user experience.</li>
+            </ul>
+          </div>
+          <hr>
+          <div class="project-card">
+            <h3>Social media platform DBMS</h3>
+            <ul>
+              <li>I've built a DBMS project for a social media platform, covering ERD, DFD, Sequence, Use Case diagrams, and an SRS. SQL queries were implemented for enhanced functionality.</li>
+            </ul>
+          </div>
+          <hr>
+    </div>
+    </section>
+    <div style="clear:both;"></div>
+
+    <!-- Recommendations -->
+    <section id="recommendations">
+      <h2>Recommendations</h2>
+      <div style="clear:both;"></div>
+      <div class="all_recommendations" id="all_recommendations">
+        <div class="recommendation">
+          <span>&#8220;</span>
+          Azaam Mohammed Hassen is a highly dedicated and hardworking individual, consistently displaying a keen attention to detail. His commitment to excellence is evident in every task, making him a valuable asset to any project or team.
+          <span>&#8221;</span>
+        </div>
+      </div>
+    </section>
+
+    <!-- Recommendation Form -->
+    <section id="contact">
+      <div class="flex_center">
+        <fieldset>
+          <legend class="introduction">Leave a Recommendation</legend>          
+          <input type="text" placeholder="Name (Optional)"> <br/>
+          <textarea id="new_recommendation" cols="500" rows="10" placeholder="Message"></textarea>
+          <div class="flex_center">
+            <button id="recommend_btn" onclick="addRecommendation()">Submit</button>
+          </div>
+        </fieldset>
+      </div>
+    </section>
+
+    <div class="iconbutton">
+      <a href="#home">
+        <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="white" width="63px">
+          <path stroke-linecap="round" stroke-linejoin="round" d="M15 11.25l-3-3m0 0l-3 3m3-3v7.5M21 12a9 9 0 11-18 0 9 9 0 0118 0z" />
+        </svg>
+      </a>
+    </div>
+
+    <div class="popup" id="popup" class="flex_center">
+      <img src="html_finalprojimages/checkmark--outline.svg"/>
+      <h3>Thanks for leaving a recommendation!</h3>
+      <button onclick="showPopup(false)">Ok</button>
+    </div>
+  </body>
+</html>
